@@ -2,74 +2,83 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Red Rose", cursive;
-
+    font-family: 'Poppins', sans-serif;
 }
 body{
-    height: 100%;
+    background-color: #e6e3d9ee;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/Assignment/assets/pexels-maxyne-barcel-10402282\ 1.png);
-    background-size: cover;
-    background-attachment: fixed;
+    height: 100%;
 }
 
 nav{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 0 60px 0 60px;
-    margin-top: 50px;
+    justify-content: space-between;
+    margin: 30px 20px;
+    padding: 20px 5%;
 }
-ul{
+nav .list{
+    list-style: none;
     display: flex;
     align-items: center;
-    color: #ffc233;
-    list-style: none;
-    gap: 30px;
-    font-size: 20px;
-    font-weight: 500;
-}
-.logo{
-    cursor: pointer;
-}
-.btn1{
-    font-family: "Red Rose";
-    font-size: 22px;
-    line-height: 18px;
-    padding: 24px 56px;
-    color: white;
-    background-color: #ff505f;
-    border: none;
-    cursor: pointer;
-}
-.hero{
-    max-width: 1155px;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 119px;
-}
-h1{
-    font-family: "Red Rose", cursive;
+    gap: 40px;
     font-weight: 400;
-    color: #ffc233;
-    line-height: 114px;
-    font: normal;
-    font-size: 110px;
+    line-height: 30px;
 }
-.btn2{
-    border: none;
-    padding: 24px 56px;
-    margin-top: 64px;
+nav .list li:hover{
+    color: #5757b3;
     cursor: pointer;
-    font-size: 32px;
-    background-color: #ff505f;
-    font-weight: 700;
-    cursor: pointer;
+}
+.small-button{
     color: white;
-
+    font-size: 20px;
+    background-color: rgb(97, 97, 202);
+    padding: 13px 23px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
 }
-.bottom {
-    position: absolute;
-    bottom: 20px;
-    right: 40px;
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 80px;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    
+}
+span{
+    color: #5757b3;
+}
+.left-side h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(39, 6, 82);
+}
+.left-side p{
+    display: flex;
+    color: #808080;
+    font-size: 18px;
+    font-weight: 400;
+}
+.large-button{
+    margin-top: 72px;
+    margin-right: 250px;
+    padding: 10px 30px;
+    color: white;
+    background-color: #5757b3;
+    padding: 13px 23px;
+    font-weight: 500;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+.right-side{
+    display: flex;
+    width: 60%;
 }
