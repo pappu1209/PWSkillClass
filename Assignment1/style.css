@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/Assignment/assets/pexels-maxyne-barcel-10402282\ 1.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px 0 60px;
+    margin-top: 50px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    color: #ffc233;
+    list-style: none;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.logo{
+    cursor: pointer;
+}
+.btn1{
+    font-family: "Red Rose";
+    font-size: 22px;
+    line-height: 18px;
+    padding: 24px 56px;
+    color: white;
+    background-color: #ff505f;
+    border: none;
+    cursor: pointer;
+}
+.hero{
+    max-width: 1155px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 119px;
+}
+h1{
+    font-family: "Red Rose", cursive;
+    font-weight: 400;
+    color: #ffc233;
+    line-height: 114px;
+    font: normal;
+    font-size: 110px;
+}
+.btn2{
+    border: none;
+    padding: 24px 56px;
+    margin-top: 64px;
+    cursor: pointer;
+    font-size: 32px;
+    background-color: #ff505f;
+    font-weight: 700;
+    cursor: pointer;
+    color: white;
+
+}
+.bottom {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
