@@ -1,0 +1,141 @@
+h1{
+    text-align: center;
+}
+.large{
+    text-align: center;
+    font-size: 40px;
+    display: none;
+}
+.laptop{
+    text-align: center;
+    font-size: 40px;
+    display: none;
+}
+.tablet{
+    text-align: center;
+    font-size: 40px;
+    display: none;
+}
+.mobile{
+    text-align: center;
+    font-size: 40px;
+    display: none;
+}
+/* media query max-width */
+
+/*
+@media screen and (max-width: 1440px){
+    body{
+        background-color: aqua;
+    }
+    .large{
+        display: block;
+    }
+}
+@media screen and (max-width: 1024px){
+    body{
+        background-color: rgb(0, 255, 64);
+    }
+    .laptop{
+        display: block;
+    }
+    .large{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px){
+    body{
+        background-color: rgb(255, 153, 0);
+    }
+    .tablet{
+        display: block;
+    }
+    .laptop{
+        display: none;
+    }
+    .large{
+        display: none;
+    }
+}
+@media screen and (max-width: 425px){
+    body{
+        background-color: rgb(255, 0, 34);
+    }
+    .mobile{
+        display: block;
+    }
+    .tablet{
+        display: none;
+    }
+    .laptop{
+        display: none;
+    }
+    .large{
+        display: none;
+    }
+}
+*/
+/* media query min-width */
+@media screen and (min-width: 0px) {
+    body{
+        background-color: aqua;
+    }
+    .mobile{
+        display: block;
+    }
+    
+}
+@media screen and (min-width:425px) {
+    body{
+        background-color: rgb(4, 0, 255);
+    }
+    .mobile{
+        display: none;
+    }
+    
+}
+@media screen and (min-width: 768px) {
+    body{
+        background-color: rgb(0, 255, 64);
+    }
+    .tablet{
+        display: block;
+    }
+    .mobile{
+        display: none;
+    }
+    
+}
+@media screen and (min-width: 1024px) {
+    body{
+        background-color: rgb(255, 115, 0);
+    }
+    .laptop{
+        display: block;
+    }
+    .tablet{
+        display: none;
+    }
+    .mobile{
+        display: none;
+    }
+    
+}
+@media screen and (min-width: 1366px) {
+    body{
+        background-color: rgb(255, 0, 43);
+    }
+    .large{
+        display: block;
+    }
+    .laptop{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+    .mobile{
+        display: none;
+    }
+    
+}
