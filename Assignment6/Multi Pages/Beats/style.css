@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: #0b0c0f;
+    color: white;
+}
+body{
+    margin: 0 15vw;
+    padding: 15px 0;
+    
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+    font-weight: 600;
+}
+nav img{
+    width: 25px;
+    height: 25px;
+}
+.navigation-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+nav ul li{
+    margin-right: 40px;
+}
+nav a{
+    text-decoration: none;
+}
+nav .right-button{
+    margin-left: 15px;
+    padding: 13px 43px;
+    background-color: #212529;
+    border: none;
+    border-radius: 10px;
+}
+img[alt="mainImage"]{
+    position: relative;
+    top: -200px;
+    left: 100px;
+    width: 210px;
+    height: 490px;
+}
+/* designing the main section */
+main {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+    position: relative;
+}
+
+.mainImg {
+    width: 230px;
+    position: relative;
+    top: -250px;
+    left: 70px;
+}
+
+.main {
+    margin-left: 180px;
+}
+
+.onEarImg {
+    width: 320px;
+    margin-left: 50px;
+}
+
+.main h1 {
+    font-weight: 600;
+    font-size: 46px;
+    margin-bottom: 25px;
+}
+
+.main h4 {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.main p {
+    width: 65%;
+    font-size: 12px;
+    font-weight: 300;
+    color: #bdc0c2;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.main-section img{
+    width: 230px;
+    position: relative;
+    top: -50;
+    left: 70;
+}
+.main-section{
+    margin-left: -180px;
+}
+.main-section h1{
+    font-size: 45px;
+    padding-top: 20px;
+    font-weight: 600;
+}
+.main-section h4{
+    font-size: 18px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+.main-section p{
+    width: 65%;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 25px;
+    color: #cecefa;
+    margin-bottom: 25px;
+}
+.main-section2{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #2b2929;
+    border-radius: 8px;
+    /* padding: 5px 15px; */
+}
+.main-section2 img{
+    width: 15px;
+    background-color: transparent;
+}
+.main-section2 p{
+    margin-bottom: 15px;
+    color: white;
+    background-color: transparent;
+}
+.main-section2 span{
+    background-color: transparent;
+}
+.social-media{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 50px;
+    position: relative;
+    top: 90px;
+}
+.social-media img{
+    scale: 0.8;
+}
+.specs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.specs-logo{
+    scale: 0.8;
+    margin-top: 180px;
+}
+.specs-list{
+    display: flex;
+}
+.specs-list img{
+    scale: 0.8;
+}
+.specs-list-item div{
+    margin-bottom: 30px;
+}
+.specs-list-item img{
+    scale: 0.8;
+}
+.specs-list-item p{
+    font-size: 11px;
+}
+.specs-list-item div p:last-child{
+    font-size: 10px;
+    margin-top: 5px;
+    width: 70%;
+    color: #bdc0c2;
+}
+.specs-list-item div:first-child,
+.specs-list-item div:last-child{
+    margin-left: 30px;
+}
+.case{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.case-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.case-item img{
+    scale: 0.8;
+}
+.case-item div{
+    width: 20%;
+}
+.case-item div p:first-child {
+    color: #bdc0c2;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 30px;
+} 
+.case-item div p:last-child img {
+    scale: 0.8;
+    background-color: transparent;
+}
+
+.case-item div p:last-child {
+    width: fit-content;
+    background: #1e1e21;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 12px;
+    padding: 10px 20px;
+}
+.buy-product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #181a1b;
+    border-radius: 10px;
+    margin-top: 60px;
+    gap: 30px;
+    padding: 30px 10px;
+}
+.buy-product div,
+.buy-product p,
+.buy-product h3,
+.buy-product img {
+background-color: transparent;
+}
+
+.buy-product div {
+width: 25%;
+}
+
+.buy-product div h3 {
+font-weight: 600;
+font-size: 18px;
+margin-bottom: 15px;
+}
+
+.buy-product div p {
+color: #bdc0c2;
+font-size: 14px;
+margin-bottom: 15px;
+}
+
+.buy-product div div {
+display: flex;
+align-items: center;
+width: fit-content;
+background: #000000;
+border-radius: 8px;
+padding: 10px 20px;
+}
+
+.buy-product div div img {
+scale: 0.8;
+margin-right: 10px;
+}
+
+.buy-product div div p {
+margin-bottom: 0;
+font-size: 12px;
+color: white;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    margin: 0 150px;
+}
+.product-logo {
+    display: flex;
+    flex-direction: column;
+}
+.product-logo {
+    scale: 0.3;
+}
+.product-items {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-left: 50px;
+}
+
+.product-card{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    background: #181a1b;
+    border-radius: 8px
+}
+.product-img {
+    width: 75px;
+    height: 100px;
+    position: absolute;
+    z-index: 100;
+    top: -40px;
+    left: 28px;
+}
+.product-img,.product-card p,.product-card span,.product-card img,.product-card div {
+    background-color: transparent;
+}
+.product-info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.product-info p {
+    font-size: 12px;
+}
+
+.product-info p span {
+    color: #bdc0c2;
+}
+
+.product-info div {
+    background: #0a0a0b;
+    border-radius: 8px;
+    padding: 2px 6px;
+}
+
+.product-info div img {
+    width: 13px;
+    height: 13px;
+}
+
+  /* designing the footer section */
+footer{
+    margin: 100px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+}
+footer{
+    margin: 100px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    
+}
+.footer-logo{
+    scale: 0.8;
+}
+footer ul li:first-child a{
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+footer ul li{
+    margin-bottom: 5px;
+    list-style: none;
+}
+footer ul li a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #BDC0C2;
+}
+.footer-subscription{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-subscription div:first-child{
+    background: #181A1B;
+border-radius: 8px;
+padding: 5px 10px;
+display: flex;
+}
+
+.footer-subscription div:first-child input{
+    border: none;
+    background-color: transparent;
+}
+
+.subscribe-button{
+    background: #0A0A0B;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.subscribe-button img{
+    scale: 0.8;
+}
+
+.subscribe-button p{
+    font-size: 12px;
+}
+
+.footer-subscription div:last-child img{
+    margin-right: 10px;
+    scale: 0.8;
+}
+
+.arrow-up{
+    position: absolute;
+    right: -160px;
+    scale: 0.8;
+}

@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    max-width: 4150px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    height: 15vh;
+}
+nav img{
+    width: 150px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li:first-child {
+    font-weight: 700;
+    color: #20bc7e;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 570;
+    color: black;
+    font-size: 15px;
+    padding: 15px;
+}
+nav ul span{
+    color: black;
+    font-weight: 600;
+}
+main{
+    margin-top: 8rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5%;
+}
+.Experienced{
+    width: 50%;
+    text-align: center;
+}
+.Experienced h1{
+    font-size: 30px;
+    color: #20bc7e;
+}
+.Experienced p{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.achievement{
+    margin-top: 3rem;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black, 0 -4px 4px rgb(98, 0, 255);
+}
+.card span{
+    font-size: 25px;
+    font-weight: 700;
+    color: #20bc7e;
+}
+.card p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+}
