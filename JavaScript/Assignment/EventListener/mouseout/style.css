@@ -1,0 +1,14 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+#clickhere{
+    box-shadow: 0 0px 5px 0px #151514;
+    padding: 15px 60px;
+    font-size: 35px;
+    font-weight: 600;
+    cursor: pointer;
+}
