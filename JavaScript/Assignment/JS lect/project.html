@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #button{
+            padding: 15px;
+            background-color: #808080;
+            font-size: 18px;
+            border-radius: 20px;
+            
+        }
+    </style>
+</head>
+<body>
+    <button id="button">Click Here to change color</button>
+    <script>
+        const btn = document.getElementById("button");
+        const randomColor = ()=> {
+            let val = "0123456789ABCDEF";
+            let cons = "#";
+
+            for(let i = 0; i < 6; i++){
+                cons = cons + val[Math.floor(Math.random() * 16)];
+            }
+            return cons;
+        };
+        function changeRandomColor(){
+            document.body.style.backgroundColor = randomColor();
+        }
+        btn.addEventListener("click", changeRandomColor);
+    </script>
+</body>
+</html>

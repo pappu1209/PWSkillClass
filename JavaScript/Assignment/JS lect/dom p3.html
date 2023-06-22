@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Part 3</title>
+</head>
+<body>
+    <h1>hello Word - Pwskill</h1>
+    <p id="js"></p>
+    <button onclick="hey()" id="btn">Click to Change Text</button>
+    <script>
+        document.addEventListener("dblclick", hello);
+        function hello(){
+            document.getElementById("js").innerText = "Namaste Bachho";
+        }
+        function hey(){
+            document.getElementById("btn").innerText = "How Are You";
+            document.getElementById("btn").style.color = "red";
+            document.getElementById("btn").style.padding = "16px";
+            document.getElementById("btn").style.backgroundColor = "black";
+        }
+    </script>
+</body>
+</html>

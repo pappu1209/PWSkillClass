@@ -1,0 +1,23 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "this is my project which is used node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "keywords": [
+    "prince",
+    "rawani",
+    "node",
+    "js"
+  ],
+  "author": "prince kumar",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "react-script": "^2.0.5"
+  }
+}

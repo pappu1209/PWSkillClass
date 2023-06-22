@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            width: 100px;
+            height: 100px;
+            background-color: #ff4d00;
+            /* border: 2px solid black; */
+            box-shadow: 0 0 5px 0px black;
+        }
+        button{
+            padding: 5px 25px;
+            margin: 10px 0;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Animation Box</h1>
+    <div id="box"></div>
+    <!-- <button onclick="stop()">Stop</button> -->
+
+    <script>
+
+        //  settimeout function ++++++++++++++++++++
+        /*
+        let box = setTimeout(redbox, 3000)
+        function redbox(){
+            // console.log("hello");
+            let target = document.getElementById("box");
+            target.style.width = "500px";
+        }
+        function stop(){
+            clearTimeout(box);
+        }
+        */
+
+// set interval function ++++++++++++++++++++++++++++
+    let a = 0
+    let set = setInterval(boxanim, 500)
+    function boxanim(){
+        a = a + 5;
+        // console.log(a);
+        if(a == 600){
+            clearInterval(set);
+        }else{
+            let target = document.getElementById("box")
+            target.style.width = a + "px";
+        }
+        
+    }
+
+    // setInterval(boxanim, 3000)
+    // function boxanim(){
+    //         let target = document.getElementById("box")
+    //         target.style.width = "300px";
+    //     }
+    </script>
+</body>
+</html>
